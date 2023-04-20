@@ -1,0 +1,118 @@
+html {
+	height: 100vh;
+	min-width: 600px;
+	background-image: linear-gradient(160deg, white, blue);
+	background-repeat: no-repeat;
+	background-size: auto;
+  }
+  
+  .container {
+	width: 600px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: auto;
+	font-weight: 900;
+	font-family: 'M PLUS 2', sans-serif;
+  }
+  .logo {
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	margin: auto;
+	padding: 1.5rem 0;
+	align-items: center;
+  }
+  .main {
+	padding: 20px;
+  }
+  form {
+	background-color: whitesmoke;
+	padding: 15px;
+	border-radius: 5px;
+	display: flex;
+  }
+  input[type='text'] {
+	height: 30px;
+	outline: 0;
+	border: none;
+	font-size: 1 rem;
+	font-family: 'M PLUS 2', sans-serif;
+	font-weight: 900;
+	color: rgb(2, 2, 2);
+	flex-grow: 1;
+  }
+  button {
+	font-size: 1.5rem;
+	background-color: honeydew;
+	outline: 0;
+	border: none;
+	color: rgb(228, 18, 53);
+  }
+  button:hover {
+	color: lightcoral;
+  }
+  .todoList {
+	background-color: lightgoldenrodyellow;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 10px 25px;
+	height: 100%;
+  }
+  ul {
+	padding-left: 0px;
+	list-style: none;
+  }
+  li {
+	display: flex;
+	align-items: centere;
+	border-bottom: 1px solid lightgray;
+	padding: 15px 0;
+	font-size: 1rem;
+	color:black;
+  }
+  .clearAll {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px 3px;
+	cursor: pointer;
+	font-size: 0.9rem;
+  }
+  
+  .clearAll:hover {
+	color: blue;
+  }
+  .checkbox-round {
+	width: 1.3em;
+	height: 1.3em;
+	background-color: white;
+	border-radius: 50%;
+	vertical-align: middle;
+	border: 1px solid #ddd;
+	appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+	cursor: pointer;
+  }
+  i {
+	pointer-events: none;
+  }
+  .checkbox-round:checked {
+	background-color: rgb(10, 248, 82);
+  }
+  .todo-item {
+	flex-grow: 1;
+  }
+  .del-button {
+	opacity: 0;
+  }
+  .del-button{
+	opacity: 1;
+	color: rgb(228, 18, 53);
+  }
+  #item-count-container {
+	font-size: 0.9rem;
+	font-weight: 900;
+	font-family: 'M PLUS 2', sans-serif;
+  }
+  
